@@ -11,9 +11,11 @@ const (
 
 func main()  {
 
+	name := "majid"
 	fmt.Println(pi)
 	fmt.Println(statusok)
 	fmt.Println(statuscreate)
 	c := 57/number
 	fmt.Println(c)
+	fmt.Printf("%s %d",name,number)
 }
